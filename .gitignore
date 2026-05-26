@@ -1,1 +1,6 @@
-node_modules/\ndist/\n*.mp4\n*.zip
+node_modules/
+*.zip
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+test.html
