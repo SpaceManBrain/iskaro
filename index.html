@@ -297,16 +297,21 @@
             });
 
             // Fade the hero text card out as the living green page rises over it.
-            // A direct scroll-linked transform keeps this smooth even while the hero is pinned.
-            const heroCopy = document.getElementById('hero-copy');
+            // Keep opacity/transform on the same element that owns backdrop-filter.
+            // Chrome can drop child backdrop-filter when an ancestor fades/transforms.
+            const heroCard = document.querySelector('.hero-card');
             function syncHeroFade() {
-                if (!heroCopy) return;
+                if (!heroCard) return;
                 const p = Math.min(1, Math.max(0, window.scrollY / 360));
-                heroCopy.style.opacity = String(1 - p);
-                heroCopy.style.transform = `translateY(${-56 * p}px) scale(${1 - 0.04 * p})`;
-                heroCopy.style.pointerEvents = p > 0.7 ? 'none' : 'auto';
+                heroCard.style.opacity = String(1 - p);
+                heroCard.style.transform = `translateY(${-56 * p}px) scale(${1 - 0.04 * p})`;
+                heroCard.style.pointerEvents = p > 0.7 ? 'none' : 'auto';
             }
             window.addEventListener('scroll', syncHeroFade, { passive: true });
+            setTimeout(() => {
+                heroCard?.classList.remove('animate-fade-up');
+                syncHeroFade();
+            }, 1100);
             syncHeroFade();
 
             // Scannable Intersection Tracking Frame

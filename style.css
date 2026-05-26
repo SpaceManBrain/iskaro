@@ -127,14 +127,20 @@ html { scroll-behavior: smooth; }
 }
 
 .hero-card {
+  width: 50%;
+  max-width: none;
+  transform-origin: center right;
   background: linear-gradient(135deg, rgba(17,20,17,0.42), rgba(17,20,17,0.18));
+  backdrop-filter: blur(14px) saturate(1.2);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
   border-left: 4px solid #4de082;
   box-shadow: 0 24px 80px rgba(0,0,0,0.38);
 }
 
-#hero-copy {
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+@media (max-width: 768px) {
+  .hero-card {
+    width: 100%;
+  }
 }
 
 /* Typography animations */
