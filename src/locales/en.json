@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "services": "Services",
+    "approach": "Approach",
+    "contact": "Contact"
+  },
+  "cta": {
+    "quote": "Request a Quote",
+    "project": "Send Project Details"
+  },
+  "hero": {
+    "kicker": "ESTONIA • FINLAND • SWEDEN",
+    "title": "Precision forestry work for demanding Nordic terrain.",
+    "coreCapabilities": "Core Capabilities"
+  },
+  "services": {
+    "title": "Services built for field conditions",
+    "description": "A well-managed forest grows stronger, safer and more valuable over time. We provide practical forestry services for landowners, companies and infrastructure projects — with careful planning, reliable fieldwork and respect for the surrounding environment.",
+    "infrastructure": {
+      "label": "01 / INFRASTRUCTURE",
+      "title": "Safe corridors. Reliable access. Fewer risks.",
+      "body": "We clear brush, small trees and hazardous edge trees around power lines and service corridors. Our work helps reduce outage risks, improves access for maintenance teams, and keeps the surrounding area safer for landowners and infrastructure operators."
+    },
+    "silviculture": {
+      "label": "02 / SILVICULTURE",
+      "title": "Give the best trees room to grow.",
+      "body": "Young forest clearing removes weak, damaged or poorly placed trees so the strongest trees can develop better trunks, crowns and root systems. Done at the right time, clearing improves future thinning results and supports a healthier, more valuable forest."
+    },
+    "risk": {
+      "label": "03 / RISK MANAGEMENT",
+      "title": "Hazardous Tree Removal",
+      "body": "We remove leaning, storm-damaged and structurally unsafe trees near access roads, buildings, utility corridors and working areas with controlled planning and careful execution."
+    },
+    "regeneration": {
+      "label": "04 / REGENERATION",
+      "title": "Forest Planting & Regeneration",
+      "body": "From site preparation to planting support, we help establish young forest stands with practical spacing, species-aware planning and long-term forest health in mind."
+    },
+    "clearing": {
+      "label": "05 / CLEARING",
+      "title": "Brush Clearing",
+      "body": "Open access routes, reclaim overgrown areas and prepare land for maintenance or future work with efficient brush and small-tree clearing."
+    },
+    "cutting": {
+      "label": "06 / CUTTING",
+      "title": "Tree Cutting",
+      "body": "Controlled cutting for land management, safety, access and forestry maintenance — planned around terrain, surroundings and project requirements."
+    }
+  },
+  "approach": {
+    "title": "Modern fieldwork, grounded in forestry experience",
+    "body": "The visual system is modern, but the promise is simple: clear communication, reliable site work and practical forestry services for private landowners, companies and infrastructure operators.",
+    "founded": "Founded in 2021",
+    "serving": "Serving Estonia, Finland and Sweden",
+    "subtitle": "Power-line corridors, forest stands and land access",
+    "description": "We combine power-line clearing, brush control, tree cutting, hazardous removal, planting and maintenance into one clear service offer for Nordic terrain.",
+    "valueTitle": "Long-Term Value",
+    "valueBody": "Better spacing, safer access and healthier stands through timely maintenance.",
+    "riskTitle": "Risk Interception",
+    "riskBody": "Reducing risks around lines, roads and work areas before they become problems."
+  },
+  "contact": {
+    "title": "Plan your next forestry project",
+    "body": "Send the location, service type and timeline. We will help clarify the work scope.",
+    "logistics": "Logistics",
+    "operations": "Operations"
+  },
+  "footer": {
+    "copyright": "© 2026 Iskaro AB. Modern forestry, clearing and power-line corridor services across Estonia, Finland and Sweden.",
+    "solutions": "Solutions",
+    "company": "Company",
+    "status": "Available for projects"
+  }
+}

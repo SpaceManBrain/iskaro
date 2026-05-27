@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "services": "Tjenester",
+    "approach": "Arbeidsmåte",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "quote": "Be om tilbud",
+    "project": "Send prosjektdetaljer"
+  },
+  "hero": {
+    "kicker": "ESTLAND • FINLAND • SVERIGE",
+    "title": "Presist skogsarbeid for krevende nordisk terreng.",
+    "coreCapabilities": "Kjernekompetanse"
+  },
+  "services": {
+    "title": "Tjenester bygget for feltforhold",
+    "description": "En godt skjøttet skog blir sterkere, tryggere og mer verdifull over tid. Vi leverer praktiske skogtjenester for grunneiere, selskaper og infrastrukturprosjekter — med grundig planlegging, pålitelig feltarbeid og respekt for miljøet rundt.",
+    "infrastructure": {
+      "label": "01 / INFRASTRUKTUR",
+      "title": "Trygge korridorer. Pålitelig tilgang. Færre risikoer.",
+      "body": "Vi rydder kratt, småtrær og farlige kanttrær rundt kraftlinjer og servicekorridorer. Arbeidet reduserer risiko for strømbrudd, forbedrer tilgang for vedlikeholdsteam og gjør området tryggere for grunneiere og infrastrukturoperatører."
+    },
+    "silviculture": {
+      "label": "02 / SKOGSKJØTSEL",
+      "title": "Gi de beste trærne plass til å vokse.",
+      "body": "Ungskogrydding fjerner svake, skadde eller feilplasserte trær slik at de sterkeste trærne kan utvikle bedre stammer, kroner og rotsystemer. Når det gjøres til riktig tid, forbedrer rydding fremtidig tynning og støtter en sunnere og mer verdifull skog."
+    },
+    "risk": {
+      "label": "03 / RISIKOHÅNDTERING",
+      "title": "Fjerning av farlige trær",
+      "body": "Vi fjerner skjeve, stormskadde og strukturelt usikre trær nær adkomstveier, bygninger, kraftlinjekorridorer og arbeidsområder med kontrollert planlegging og nøye utførelse."
+    },
+    "regeneration": {
+      "label": "04 / FORYNGELSE",
+      "title": "Skogplanting og foryngelse",
+      "body": "Fra klargjøring av området til plantestøtte hjelper vi med å etablere unge skogbestand med praktisk avstand, artsbevisst planlegging og langsiktig skoghelse i fokus."
+    },
+    "clearing": {
+      "label": "05 / RYDDING",
+      "title": "Krattrydding",
+      "body": "Åpne adkomstveier, ta tilbake gjengrodde områder og klargjør areal for vedlikehold eller fremtidig arbeid med effektiv rydding av kratt og småtrær."
+    },
+    "cutting": {
+      "label": "06 / FELLING",
+      "title": "Trefelling",
+      "body": "Kontrollert felling for arealforvaltning, sikkerhet, tilgang og skogvedlikehold — planlagt etter terreng, omgivelser og prosjektkrav."
+    }
+  },
+  "approach": {
+    "title": "Moderne feltarbeid, forankret i skogerfaring",
+    "body": "Det visuelle uttrykket er moderne, men løftet er enkelt: tydelig kommunikasjon, pålitelig arbeid på stedet og praktiske skogtjenester for private grunneiere, selskaper og infrastrukturoperatører.",
+    "founded": "Grunnlagt i 2021",
+    "serving": "Betjener Estland, Finland og Sverige",
+    "subtitle": "Kraftlinjekorridorer, skogbestand og adkomst til land",
+    "description": "Vi kombinerer rydding av kraftlinjekorridorer, krattrydding, trefelling, fjerning av farlige trær, planting og vedlikehold i ett tydelig tjenestetilbud for nordisk terreng.",
+    "valueTitle": "Langsiktig verdi",
+    "valueBody": "Bedre avstand, tryggere tilgang og sunnere bestand gjennom tidsriktig vedlikehold.",
+    "riskTitle": "Forebygging av risiko",
+    "riskBody": "Vi reduserer risiko rundt linjer, veier og arbeidsområder før de blir problemer."
+  },
+  "contact": {
+    "title": "Planlegg ditt neste skogprosjekt",
+    "body": "Send sted, tjenestetype og tidsplan. Vi hjelper med å avklare arbeidsomfanget.",
+    "logistics": "Logistikk",
+    "operations": "Drift"
+  },
+  "footer": {
+    "copyright": "© 2026 Iskaro AB. Moderne skog-, rydde- og kraftlinjekorridortjenester i Estland, Finland og Sverige.",
+    "solutions": "Løsninger",
+    "company": "Selskap",
+    "status": "Tilgjengelig for prosjekter"
+  }
+}

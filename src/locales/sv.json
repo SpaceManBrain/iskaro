@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "services": "Tjänster",
+    "approach": "Arbetssätt",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "quote": "Begär offert",
+    "project": "Skicka projektdetaljer"
+  },
+  "hero": {
+    "kicker": "ESTLAND • FINLAND • SVERIGE",
+    "title": "Precisionsarbete i skog för krävande nordisk terräng.",
+    "coreCapabilities": "Kärnkompetenser"
+  },
+  "services": {
+    "title": "Tjänster byggda för verkliga fältförhållanden",
+    "description": "En välskött skog blir starkare, säkrare och mer värdefull över tid. Vi erbjuder praktiska skogstjänster för markägare, företag och infrastrukturprojekt — med noggrann planering, tillförlitligt fältarbete och respekt för den omgivande miljön.",
+    "infrastructure": {
+      "label": "01 / INFRASTRUKTUR",
+      "title": "Säkra korridorer. Tillförlitlig åtkomst. Färre risker.",
+      "body": "Vi röjer sly, mindre träd och riskträd längs kraftledningar och servicekorridorer. Arbetet minskar risken för avbrott, förbättrar åtkomsten för underhållsteam och gör området säkrare för markägare och infrastrukturoperatörer."
+    },
+    "silviculture": {
+      "label": "02 / SKOGSVÅRD",
+      "title": "Ge de bästa träden utrymme att växa.",
+      "body": "Ungskogsröjning tar bort svaga, skadade eller felplacerade träd så att de starkaste träden kan utveckla bättre stammar, kronor och rotsystem. Utfört vid rätt tidpunkt förbättrar röjningen framtida gallring och stödjer en friskare och mer värdefull skog."
+    },
+    "risk": {
+      "label": "03 / RISKHANTERING",
+      "title": "Borttagning av farliga träd",
+      "body": "Vi tar bort lutande, stormskadade och strukturellt osäkra träd nära tillfartsvägar, byggnader, ledningskorridorer och arbetsområden med kontrollerad planering och noggrant utförande."
+    },
+    "regeneration": {
+      "label": "04 / FÖRYNGRING",
+      "title": "Skogsplantering och föryngring",
+      "body": "Från markberedning till planteringsstöd hjälper vi till att etablera unga skogsbestånd med praktiskt avstånd, artmedveten planering och långsiktig skogshälsa i fokus."
+    },
+    "clearing": {
+      "label": "05 / RÖJNING",
+      "title": "Slyröjning",
+      "body": "Öppna tillfartsvägar, återta igenvuxna områden och förbered mark för underhåll eller framtida arbete med effektiv röjning av sly och mindre träd."
+    },
+    "cutting": {
+      "label": "06 / FÄLLNING",
+      "title": "Trädfällning",
+      "body": "Kontrollerad fällning för markförvaltning, säkerhet, åtkomst och skogsskötsel — planerad efter terräng, omgivning och projektkrav."
+    }
+  },
+  "approach": {
+    "title": "Modernt fältarbete, grundat i skoglig erfarenhet",
+    "body": "Det visuella uttrycket är modernt, men löftet är enkelt: tydlig kommunikation, pålitligt arbete på plats och praktiska skogstjänster för privata markägare, företag och infrastrukturoperatörer.",
+    "founded": "Grundat 2021",
+    "serving": "Verksamma i Estland, Finland och Sverige",
+    "subtitle": "Kraftledningsgator, skogsbestånd och markåtkomst",
+    "description": "Vi kombinerar röjning av kraftledningsgator, slyröjning, trädfällning, borttagning av farliga träd, plantering och underhåll till ett tydligt tjänsteerbjudande för nordisk terräng.",
+    "valueTitle": "Långsiktigt värde",
+    "valueBody": "Bättre avstånd, säkrare åtkomst och friskare bestånd genom rätt underhåll i rätt tid.",
+    "riskTitle": "Förebyggande riskarbete",
+    "riskBody": "Vi minskar risker kring ledningar, vägar och arbetsområden innan de blir problem."
+  },
+  "contact": {
+    "title": "Planera ditt nästa skogsprojekt",
+    "body": "Skicka plats, tjänstetyp och tidsplan. Vi hjälper till att tydliggöra arbetsomfattningen.",
+    "logistics": "Logistik",
+    "operations": "Drift"
+  },
+  "footer": {
+    "copyright": "© 2026 Iskaro AB. Moderna skogs-, röjnings- och kraftledningsgattetjänster i Estland, Finland och Sverige.",
+    "solutions": "Lösningar",
+    "company": "Företag",
+    "status": "Tillgängliga för projekt"
+  }
+}
