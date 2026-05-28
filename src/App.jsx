@@ -12,6 +12,7 @@ function getRoute() {
 function Navbar({ route, navigate }) {
   const { t } = useTranslation();
   const isHome = route === "/";
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const navbar = document.getElementById("navbar");
@@ -28,6 +29,8 @@ function Navbar({ route, navigate }) {
     return () => window.removeEventListener("scroll", syncNavbar);
   }, []);
 
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <header className="fixed top-0 w-full z-50 glass-panel transition-all duration-300" id="navbar">
       <div className="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-5">
@@ -35,6 +38,8 @@ function Navbar({ route, navigate }) {
           <span className="material-symbols-outlined text-tertiary text-2xl animate-pulse">radar</span>
           <span className="font-headline-lg-mobile text-headline-lg-mobile text-on-surface uppercase tracking-widest font-bold">Iskaro AB</span>
         </a>
+
+        {/* Desktop nav */}
         <nav className="hidden lg:flex items-center gap-7 font-label-caps text-label-caps text-on-surface-variant">
           {isHome && (
             <>
@@ -47,13 +52,48 @@ function Navbar({ route, navigate }) {
             <a className="hover:text-tertiary transition-colors" href="#contact">{t("nav.contact")}</a>
           )}
         </nav>
+
         <div className="flex items-center gap-4">
-          <LanguageSwitcher />
+          <div className="hidden lg:block">
+            <LanguageSwitcher />
+          </div>
           <a href="mailto:info.holtor@gmail.com"
              className="top-quote-link hidden sm:inline-flex md:w-auto bg-[rgba(255,255,255,0.12)] backdrop-blur-xl border border-white/20 text-on-surface px-5 md:px-10 py-3 md:py-4 rounded-lg md:rounded-xl font-label-caps text-label-caps whitespace-nowrap hover:bg-[rgba(77,224,130,0.20)] hover:border-[#4de080]/50 transition-all duration-300"
           >{t("cta.quote")}</a>
         </div>
+
+        {/* Hamburger button */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg text-on-surface hover:bg-surface-container transition-colors -mr-2"
+          aria-label="Toggle menu"
+        >
+          <span className="material-symbols-outlined text-2xl">
+            {menuOpen ? "close" : "menu"}
+          </span>
+        </button>
       </div>
+
+      {/* Mobile menu overlay */}
+      {menuOpen && (
+        <div className="lg:hidden fixed inset-0 top-[72px] z-40" style={{ background: "linear-gradient(180deg, rgba(17,18,19,0.98) 0%, rgba(12,14,13,0.98) 100%)", borderTop: "1px solid rgba(255,255,255,0.07)" }}>
+          <nav className="flex flex-col items-center gap-6 pt-12 font-label-caps text-label-caps text-on-surface-variant">
+            {isHome && (
+              <>
+                <a className="hover:text-tertiary transition-colors text-lg" href="#services" onClick={closeMenu}>{t("nav.services")}</a>
+                <a className="hover:text-tertiary transition-colors text-lg" href="#approach" onClick={closeMenu}>{t("nav.approach")}</a>
+              </>
+            )}
+            <a className="hover:text-tertiary transition-colors text-lg" href="#/about" onClick={(e) => { e.preventDefault(); navigate("/about"); closeMenu(); }}>{t("nav.about")}</a>
+            {isHome && (
+              <a className="hover:text-tertiary transition-colors text-lg" href="#contact" onClick={closeMenu}>{t("nav.contact")}</a>
+            )}
+            <div className="pt-6 border-t border-surface-container-highest w-40 flex justify-center">
+              <LanguageSwitcher />
+            </div>
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
