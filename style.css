@@ -98,6 +98,8 @@ html { scroll-behavior: smooth; }
 }
 
 .site-footer {
+  position: relative;
+  z-index: 30;
   background:
     linear-gradient(180deg, rgba(5, 23, 13, 0.96), rgba(3, 15, 9, 1)) !important;
   border-color: rgba(77, 224, 130, 0.16) !important;
