@@ -1,4 +1,5 @@
 node_modules/
+dist/
 *.zip
 *:Zone.Identifier
 .DS_Store
