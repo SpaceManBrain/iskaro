@@ -106,7 +106,7 @@ export default function About() {
         uZoom: { value: fx.zS },
         uOffset: { value: new THREE.Vector2(fx.oS, 0) },
         uMovement: { value: fx.mI },
-        uBrightness: { value: i === 0 ? 1.5 : 1.0 },
+        uBrightness: { value: i === 0 ? 4.0 : 1.0 },
       };
       const material = new THREE.ShaderMaterial({
         uniforms: u, vertexShader, fragmentShader,
